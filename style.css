@@ -3,16 +3,73 @@ body {
   flex-direction: column;
   min-height: 100vh;
   font-size: 14pt;
+  margin: 0;
 }
 
-.column {
-  float: left;
+header {
+  text-align: center;
 }
 
-.left {
-  width: 80%;
+header h1 {
+  color: white;
+  font-size: 3em;
 }
 
-.right {
-  height: 20%;
+header,
+footer {
+  background-color: #293a80;
+  border: solid;
+}
+
+header {
+  min-height: 10vh;
+}
+
+footer div {
+  min-height: 15vh;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.column-left {
+  display: inline-block;
+  width: 5%;
+}
+
+.column-middle {
+  display: inline-block;
+  width: 30%;
+}
+
+section h1 {
+  font-size: 1.5em;
+  text-align: center;
+  border-top: 1rem solid;
+  border-color: #beebe9;
+  margin-bottom: 15px;
+}
+
+section p {
+  margin: 0;
+}
+
+.column-right {
+  display: inline-block;
+  width: 15%;
+  text-align: left;
+  align-self: center;
+}
+
+.column-right h3 {
+  margin-top: 0.2em;
+  margin-bottom: 0;
+}
+
+.column-right p {
+  margin: 0;
+  font-size: 10pt;
 }
