@@ -45,23 +45,29 @@ footer div {
   width: 30%;
 }
 
-section h1 {
+.article-title {
   font-size: 1.5em;
+  text-align: center;
+  display: block;
   text-align: center;
   border-top: 1rem solid;
   border-color: #beebe9;
+  margin: auto;
+  margin-top: 15px;
   margin-bottom: 15px;
+  width: 40%;
 }
 
 section p {
   margin: 0;
+  margin-left: 40px;
 }
 
 .column-right {
   display: inline-block;
   width: 15%;
   text-align: left;
-  align-self: center;
+  align-self: flex-start;
 }
 
 .column-right h3 {
